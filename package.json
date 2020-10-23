@@ -1,0 +1,32 @@
+{
+  "name": "instant-data-prefetch",
+  "version": "1.0.0",
+  "description": "improves page loading for SPA apps",
+  "main": "dist/instant-data-prefetch.js",
+  "cdn": "dist/instant-data-prefetch.js",
+  "unpkg": "dist/instant-data-prefetch.js",
+  "scripts": {
+    "test": "yarn test",
+    "lint": "eslint src",
+    "build": "yarn lint && bili",
+    "prepublishOnly": "yarn build"
+  },
+  "author": "gibkigonzo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gibkigonzo/instant-data-prefetch.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/gibkigonzo/instant-data-prefetch",
+  "bugs": {
+    "url": "https://github.com/gibkigonzo/instant-data-prefetch/issues"
+  },
+  "devDependencies": {
+    "bili": "^5.0.5",
+    "eslint": "^7.3.1",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
