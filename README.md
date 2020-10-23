@@ -1,11 +1,11 @@
-# instant-data-prefetch
+# instant-prefetch
 
 Extension of well known [InstantPage](https://instant.page/) library.
 All kudos for (☞ﾟ∀ﾟ)☞ Alexandre Dieulot
 
 
 ```javascript
-import { init } from 'instant-data-prefetch'
+import { init } from 'instant-prefetch'
 
 init(
   (element) => {
@@ -13,7 +13,7 @@ init(
     console.log(element.href)
     // We can also add data attributes to element and then retrive it here
     // For example:
-    // <a data-instant-data-prefetch='{"url": "/women.html", "type": "category"}' >
+    // <a data-instant-prefetch='{"url": "/women.html", "type": "category"}' >
     if ('instantDataPrefetch' in linkElement.dataset) {
       try {
         const data = JSON.parse(linkElement.dataset['instantDataPrefetch'])

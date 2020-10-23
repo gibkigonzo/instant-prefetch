@@ -1,7 +1,7 @@
 module.exports = {
   output: {
     dir: 'dist',
-    fileName: 'instant-data-prefetch.js',
+    fileName: 'instant-prefetch.js',
     minify: true
   }
 }
